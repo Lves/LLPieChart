@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
+    NSLog(@"Hello World!");
     self.pieView.isShowSeperate=YES;  //是否显示分割
     [self.pieView setTitle:@"资产总额(元)"
                andSubTitle:[NSString stringWithFormat:@"%.2f",200.f+300]];
