@@ -5,6 +5,9 @@
 //  Created by LiXingLe on 15/10/13.
 //  Copyright © 2015年 com.wildcat. All rights reserved.
 //
+//  欢迎关注微信公众号：lecoding ，进行技术交流。微博@Lves李兴乐
+//
+
 
 #import "LLPieView.h"
 
@@ -26,6 +29,13 @@
 
 @implementation LLPieView
 
+-(instancetype)initWithFrame:(CGRect)frame{
+    if (self = [super initWithFrame:frame]) {
+        self.backgroundColor =[UIColor whiteColor];
+    }
+    return self;
+}
+
 static inline float radians(double degrees) {
     return degrees *  M_PI/ 180.f;
 }
@@ -35,11 +45,12 @@ static inline float radians(double degrees) {
     
     CGContextRef context=UIGraphicsGetCurrentContext();
     //设置半径
-    CGFloat radius=130.f;
-    if (self.circularRingRadius==0) {
-        self.circularRingRadius=54.f;
-    }
+    CGFloat radius=self.radius;
+    if (radius == 0) radius = 30.f ;
     
+    if (self.circularRingRadius==0) {
+        self.circularRingRadius=10.f;
+    }
     CGFloat intRadius=radius-self.circularRingRadius;
     //设置圆心的坐标
     CGFloat centerX=self.bounds.size.width/2.f;

@@ -14,7 +14,8 @@
 		6C1F7F581BD8801A00C50F1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C1F7F571BD8801A00C50F1B /* Assets.xcassets */; };
 		6C1F7F5B1BD8801A00C50F1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C1F7F591BD8801A00C50F1B /* LaunchScreen.storyboard */; };
 		6C1F7F661BD8801A00C50F1B /* LLPieChartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1F7F651BD8801A00C50F1B /* LLPieChartTests.m */; };
-		6C1F7F731BD8818700C50F1B /* LLPieView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1F7F721BD8818700C50F1B /* LLPieView.m */; settings = {ASSET_TAGS = (); }; };
+		6C1F7F731BD8818700C50F1B /* LLPieView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1F7F721BD8818700C50F1B /* LLPieView.m */; };
+		6C77EDBA1C916F97002EB0A4 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C77EDB91C916F97002EB0A4 /* NextViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		6C1F7F671BD8801A00C50F1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C1F7F711BD8818700C50F1B /* LLPieView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLPieView.h; sourceTree = "<group>"; };
 		6C1F7F721BD8818700C50F1B /* LLPieView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLPieView.m; sourceTree = "<group>"; };
+		6C77EDB81C916F97002EB0A4 /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		6C77EDB91C916F97002EB0A4 /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +97,8 @@
 				6C1F7F591BD8801A00C50F1B /* LaunchScreen.storyboard */,
 				6C1F7F5C1BD8801A00C50F1B /* Info.plist */,
 				6C1F7F4B1BD8801A00C50F1B /* Supporting Files */,
+				6C77EDB81C916F97002EB0A4 /* NextViewController.h */,
+				6C77EDB91C916F97002EB0A4 /* NextViewController.m */,
 			);
 			path = LLPieChart;
 			sourceTree = "<group>";
@@ -224,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C77EDBA1C916F97002EB0A4 /* NextViewController.m in Sources */,
 				6C1F7F531BD8801A00C50F1B /* ViewController.m in Sources */,
 				6C1F7F501BD8801A00C50F1B /* AppDelegate.m in Sources */,
 				6C1F7F4D1BD8801A00C50F1B /* main.m in Sources */,
@@ -414,6 +420,7 @@
 				6C1F7F6C1BD8801A00C50F1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6C1F7F6D1BD8801A00C50F1B /* Build configuration list for PBXNativeTarget "LLPieChartTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +429,7 @@
 				6C1F7F6F1BD8801A00C50F1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
