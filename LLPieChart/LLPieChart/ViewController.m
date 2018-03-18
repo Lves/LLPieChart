@@ -26,6 +26,7 @@
     //设置数据源
     [self.pieView setDataSource:@[@200, @300,@300]
                        andColor:@[HEXCOLOR(0x5c99fd),HEXCOLOR(0xf0595e),HEXCOLOR(0x005900)]];
+    //测试
 
 }
 
